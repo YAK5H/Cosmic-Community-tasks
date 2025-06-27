@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #283149;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DBEDF3;
+    font-size: 5rem;
+    text-shadow: 3px 0 #DA0463;
+    margin: 2.5rem 0;
+}
+
+#Keystemplate{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 10rem;
+}
+
+.buttons{
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 0 #DBEDF3;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-shadow: 3px 0 white;
+    color: #DA0463;
+}
+
+.w{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/tom1.png);
+}
+
+.a{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/tom2.png);
+}
+
+.s{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/tom3.png);
+}
+
+.d{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/tom4.png);
+}
+
+.j{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/snare.png);
+}
+
+.k{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/crash.png);
+}
+
+.l{
+    background-image: url(https://drum-kit-livid-five.vercel.app/images/kick.png);
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
